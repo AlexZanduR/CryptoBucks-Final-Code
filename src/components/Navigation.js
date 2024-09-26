@@ -54,6 +54,20 @@ ${
     border-0 cursor-pointer rounded capitalize font-semibold`;
         }}
       >
+        dexscreener
+      </NavLink>
+    </nav>
+  );
+};
+
+${
+  isActive
+    ? "bg-cyan text-gray-300"
+    : "bg-gray-200 text-gray-100hover:text-cyan active:bg-cyan active:text-gray-300"
+}
+    border-0 cursor-pointer rounded capitalize font-semibold`;
+        }}
+      >
         saved
       </NavLink>
     </nav>
