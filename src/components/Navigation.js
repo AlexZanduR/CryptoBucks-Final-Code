@@ -54,11 +54,13 @@ ${
     border-0 cursor-pointer rounded capitalize font-semibold`;
         }}
       >
-        dexscreener
+        trending
       </NavLink>
-    </nav>
-  );
-};
+
+      <NavLink
+        to="/saved"
+        className={({ isActive }) => {
+          return `w-full text-base text-center font-nunito m-2.5
 
 ${
   isActive
